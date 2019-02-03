@@ -1,0 +1,6 @@
+- pipeline.id: logs
+  path.config: "logs.config"
+  pipeline.workers: 4
+- pipeline.id: syslog
+  path.config: "syslog.config"
+  pipeline.workers: 4
